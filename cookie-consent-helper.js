@@ -41,7 +41,7 @@ else {
 		var styleElement = document.createElement("link");
 		styleElement.type = "text/css";
 		styleElement.rel = "stylesheet";
-		styleElement.styleSheet.href = cssHref;
+		styleElement.href = cssHref;
 		document.getElementsByTagName("head")[0].appendChild(styleElement);
 	};
 	mediaus.htmlHelper.fadeOut = function (selector){
